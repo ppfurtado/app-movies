@@ -4,7 +4,7 @@ const createCard = ({ title, href, img }) => `
 
     <div class="card ">
       <h5>${title}</h5>
-      <a href="http://www.rifftrax.com/${href}" class="btn btn-primary"> Check it out </a>
+      <a href="http://www.rifftrax.com/${href}" class="btn btn-primary" target="_blank"> Check it out </a>
     </div>
   </div>
 `;
